@@ -115,9 +115,8 @@ async def fallen_boot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""**ʜᴇʏ ,
+home_text_pm = f"""ʀᴇᴍ ᴍᴜsɪᴄ sʏsᴛᴇᴍ
 
-ᴛʜɪs ɪs** {BOT_NAME},
 **ᴀ ғᴀsᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴠɪᴅᴇᴏᴄʜᴀᴛs.**
 """
 
