@@ -194,7 +194,6 @@ async def start_command(_, message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-              (
                 InlineKeyboardButton(
                     text="❄ ʜᴇʟᴩ ❄", callback_data="fallen_help"
                ),    
@@ -208,8 +207,7 @@ async def fallen_home(_, CallbackQuery):
         text=home_text_pm,
         reply_markup=InlineKeyboardMarkup(
         [
-          [
-            (
+            [
                 InlineKeyboardButton(
                     text="❄ ʜᴇʟᴩ ❄", callback_data="fallen_help"
                 )
