@@ -210,8 +210,11 @@ async def fallen_home(_, CallbackQuery):
             [
                 InlineKeyboardButton(
                     text="❄ ʜᴇʟᴩ ❄", callback_data="fallen_help"
+                )
             ],
         ]
+      ),
+    )
    
 if __name__ == "__main__":
     loop.run_until_complete(fallen_boot())
