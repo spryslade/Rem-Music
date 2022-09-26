@@ -120,6 +120,10 @@ home_text_pm = f"""**ʜᴇʏ ,
 ᴛʜɪs ɪs** {BOT_NAME},
 **ᴀ ғᴀsᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴠɪᴅᴇᴏᴄʜᴀᴛs.*
 
+
+
+
+
 @app.on_message(filters.command("start") & filters.private)
 async def start_command(_, message):
     await add_served_user(message.from_user.id)
