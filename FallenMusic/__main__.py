@@ -196,9 +196,8 @@ async def start_command(_, message):
             [
                 InlineKeyboardButton(
                     text="❄ ʜᴇʟᴩ ❄", callback_data="fallen_help"
-               ),    
            ],
-        ]
+       ]
 
 @app.on_callback_query(filters.regex("fallen_home"))
 async def fallen_home(_, CallbackQuery):
@@ -210,7 +209,6 @@ async def fallen_home(_, CallbackQuery):
             [
                 InlineKeyboardButton(
                     text="❄ ʜᴇʟᴩ ❄", callback_data="fallen_help"
-                )
             ],
         ]
    
